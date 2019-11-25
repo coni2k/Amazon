@@ -5,7 +5,7 @@ using System.Collections.Generic;
 /// <summary>
 /// https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/931/
 /// </summary>
-namespace Amazon.Core.LeetCode.Explore.BinaryTree_LevelOrder
+namespace Amazon.Core.LeetCode.Explore.BinaryTree.LevelOrder
 {
     class Main
     {

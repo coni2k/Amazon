@@ -7,13 +7,6 @@ namespace Amazon.Core.DataStructures
     {
         public static void Run()
         {
-            var x = new System.Collections.BitArray(10);
-            x.Set(0, false);
-            x.Set(1, true);
-
-
-
-
             var list = new LinkedList<string>();
             list.AddLast("last item");
             list.AddFirst("first item");

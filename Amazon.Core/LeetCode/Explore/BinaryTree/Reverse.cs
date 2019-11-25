@@ -4,7 +4,7 @@ using System.Collections.Generic;
 /// <summary>
 /// https://leetcode.com/explore/learn/card/data-structure-tree/133/conclusion/942/
 /// </summary>
-namespace Amazon.Core.LeetCode.Explore.BinaryTree_Reverse
+namespace Amazon.Core.LeetCode.Explore.BinaryTree.Reverse
 {
     class Main
     {

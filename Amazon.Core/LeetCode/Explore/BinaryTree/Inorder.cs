@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 
 /// <summary>
-/// https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/928/
+/// https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/929/
 /// </summary>
-namespace Amazon.Core.LeetCode.Explore.BinaryTree_Preorder
+namespace Amazon.Core.LeetCode.Explore.BinaryTree.Inorder
 {
     class Main
     {
@@ -19,7 +19,7 @@ namespace Amazon.Core.LeetCode.Explore.BinaryTree_Preorder
             };
 
             var solution = new Solution();
-            var list = solution.PreorderTraversal(rootNode);
+            var list = solution.InorderTraversal(rootNode);
 
             foreach (var item in list)
                 Console.WriteLine(item);
@@ -32,7 +32,7 @@ namespace Amazon.Core.LeetCode.Explore.BinaryTree_Preorder
     {
         IList<int> list = new List<int>();
 
-        public IList<int> PreorderTraversal(TreeNode root)
+        public IList<int> InorderTraversal(TreeNode root)
         {
             list.Clear();
             Visit(root);
@@ -42,8 +42,8 @@ namespace Amazon.Core.LeetCode.Explore.BinaryTree_Preorder
         private void Visit(TreeNode node)
         {
             if (node == null) return;
-            list.Add(node.val);
             Visit(node.left);
+            list.Add(node.val);
             Visit(node.right);
         }
     }

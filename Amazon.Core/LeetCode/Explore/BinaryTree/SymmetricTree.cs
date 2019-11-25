@@ -4,7 +4,7 @@ using System.Collections.Generic;
 /// <summary>
 /// https://leetcode.com/explore/learn/card/data-structure-tree/17/solve-problems-recursively/536/
 /// </summary>
-namespace Amazon.Core.LeetCode.Explore.BinaryTree_SymmetricTree
+namespace Amazon.Core.LeetCode.Explore.BinaryTree.SymmetricTree
 {
     class Main
     {
