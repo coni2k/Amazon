@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 /// <summary>
-/// https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/928/
+/// https://leetcode.com/explore/learn/card/queue-stack/228/first-in-first-out-data-structure/1337/
 /// </summary>
-namespace Amazon.Core.LeetCode.Explore.QueueAndStack
+namespace Amazon.Core.LeetCode.Explore.QueueAndStack.MyCircularQueue
 {
     class Main
     {
@@ -73,6 +74,7 @@ namespace Amazon.Core.LeetCode.Explore.QueueAndStack
         public bool DeQueue()
         {
             if (IsEmpty()) return false;
+            _queue.OrderBy(x => x).Last();
             _queue.RemoveAt(0);
             return true;
         }

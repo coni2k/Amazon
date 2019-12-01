@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            LeetCode.Problems.Search_Insert_Position.Main.Run();
+            LeetCode.Interview.Most_Common_Word.Main.Run();
         }
     }
 }
