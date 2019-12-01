@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Misc.EventHandler.Tester.Run();
+            LeetCode.Problems.Search_Insert_Position.Main.Run();
         }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Amazon.Core.Misc.EventHandler
 {
-    public class Tester
+    public class Main
     {
         public static void Run()
         {

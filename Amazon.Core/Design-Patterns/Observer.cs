@@ -38,14 +38,13 @@ namespace Amazon.Core.DesignPatterns.Observer
     /// </summary>
     abstract class Stock
     {
-        private string _symbol;
         private double _price;
         private List<IInvestor> _investors = new List<IInvestor>();
 
         // Constructor
         public Stock(string symbol, double price)
         {
-            this._symbol = symbol;
+            this.Symbol = symbol;
             this._price = price;
         }
 
@@ -84,10 +83,7 @@ namespace Amazon.Core.DesignPatterns.Observer
         }
 
         // Gets the symbol
-        public string Symbol
-        {
-            get { return _symbol; }
-        }
+        public string Symbol { get; }
     }
 
     /// <summary>
