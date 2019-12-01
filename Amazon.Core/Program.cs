@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            LeetCode.Explore.QueueAndStack.Main.Run();
+            Misc.EventHandler.Tester.Run();
         }
     }
 }
