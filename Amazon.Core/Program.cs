@@ -7,7 +7,7 @@ namespace Amazon.Core
     {
         static void Main(string[] args)
         {
-            LeetCode.Interview.Reorder_Log_Files.Main.Run();
+            LeetCode.Interview.Trapping_Rain_Water.Main.Run();
 
             //var list = new List<System.DateTime>();
             //list.Add(new System.DateTime(2017, 1, 1));
